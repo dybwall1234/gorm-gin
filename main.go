@@ -13,7 +13,7 @@ var err error
 func main() {
 
 	Config.DB, err = gorm.Open("mysql",
-		"root:@tcp(ip:3306)/test?charset=utf8&parseTime=True&loc=Local")
+		Config.Dburl)
 
 	if err != nil {
 		fmt.Println("statuse: ", err)
