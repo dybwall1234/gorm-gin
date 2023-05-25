@@ -1,8 +1,8 @@
 package Models
 
 import (
-	"../Config"
 	"fmt"
+	"github.com/dybwall1234/gorm-gin/Config"
 	_ "github.com/go-sql-driver/mysql"
 )
 

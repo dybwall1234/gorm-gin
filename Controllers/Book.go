@@ -1,8 +1,8 @@
 package Controllers
 
 import (
-	"../ApiHelpers"
-	"../Models"
+	"github.com/dybwall1234/gorm-gin/ApiHelpers"
+	"github.com/dybwall1234/gorm-gin/Models"
 	"github.com/gin-gonic/gin"
 )
 
